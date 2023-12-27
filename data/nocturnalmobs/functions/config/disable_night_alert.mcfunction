@@ -1,0 +1,1 @@
+data modify storage nocturnalmobs:config should_alert_night set value 0b

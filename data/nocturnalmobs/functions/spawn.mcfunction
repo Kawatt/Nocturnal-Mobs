@@ -1,0 +1,1 @@
+execute if data storage nocturnalmobs:config {should_alert_night:1b} as @a[tag=!nocturnalmobs.nightalerted] at @s run function nocturnalmobs:alertnight

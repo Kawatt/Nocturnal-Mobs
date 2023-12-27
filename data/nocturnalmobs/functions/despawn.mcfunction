@@ -1,0 +1,2 @@
+execute as @e[type=#nocturnalmobs:hostiles,tag=!nodespawn,nbt={PersistenceRequired:0b}] at @s run function nocturnalmobs:diecheck
+execute if data storage nocturnalmobs:config {should_alert_day:1b} as @a[tag=!nocturnalmobs.dayalerted] at @s run function nocturnalmobs:alertday
